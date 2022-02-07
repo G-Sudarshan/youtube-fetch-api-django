@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_cron',
     'django_crontab',
+    'django_filters',
     'rest_framework',
     'api',    
 ]
