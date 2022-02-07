@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_cron',
+    'django_crontab',
     'rest_framework',
     'api',    
 ]
@@ -119,7 +120,7 @@ USE_I18N = True
 USE_TZ = True
 
 
-GOOGLE_API_KEY = 'AIzaSyCHyb5HfhMaqHlpwRdyKYfMuwl6kILv-c4'
+GOOGLE_API_KEYS = ['AIzaSyCHyb5HfhMaqHlpwRdyKYfMuwl6kILv-c4','AIzaSyAT_2ia3KYxIIKrw-LGvfLpLQreY32zYGA', 'AIzaSyB5pd6OtZVfQEQd-P-ASfbIE1vKU3hd99s']
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
