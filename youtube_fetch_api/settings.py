@@ -121,7 +121,7 @@ USE_I18N = True
 USE_TZ = True
 
 
-GOOGLE_API_KEYS = ['AIzaSyCHyb5HfhMaqHlpwRdyKYfMuwl6kILv-c4','AIzaSyAT_2ia3KYxIIKrw-LGvfLpLQreY32zYGA', 'AIzaSyB5pd6OtZVfQEQd-P-ASfbIE1vKU3hd99s']
+GOOGLE_API_KEYS = ['AIzaSyCHyb5HfhMaqHlpwRdyKYfMuwl6kILv-c4']
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
