@@ -1,8 +1,3 @@
-
-
-
-
-
 # YouTube latest video fetching API built wwith Django
 To make an API to fetch latest videos sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response.
 
@@ -43,32 +38,21 @@ Without publishedAfter, it will give you cached results which will be too old
 
 <hr>
    
-### 💡 Instruction for running the project
-   
-<details>
-<ol>
-   <li>Install Python 3.8</li>
-   
-   <li>Then migrate the django models using following command</li>
+### 💡 Setup Guide
+- Clone the project
+- As this project is based on Django, your system need to have proper python setup, refer [this](https://www.python.org/downloads/)
+- Go the project through the terminal and install all dependencies by using typing `pip install -r requirements.txt` in the terminal
+- Inside the `setting.py` file, fill the variable `GOOGLE_API_KEYS` with all the API Keys available,the list should be filled as `['API_KEY_1','API_KEY_2',...]`
+- For getting an API key follow [this](https://developers.google.com/youtube/v3/getting-started)
+- Setup crontab to run Job, Follow [this](https://django-cron.readthedocs.io/en/latest/installation.html)
+- Run the server using `python mange.py runserver`
 
-    python manage.py migrate
-   <li>And fire up the server</li>
-    
-    python manage.py runserver
-    
-   We can access API at 
-
-    http://127.0.0.1:8000/api/youtubeVideos/
-
- 
-   
-   **For Accessing Dashbord**
-   
-    http://127.0.0.1:8000/
- </ol>
  </details>
- <hr>
-   
+
+### 📸 Screenshot
+
+![Dashboard](https://github.com/G-Sudarshan/youtube-fetch-api-django/blob/main/docs/img/Screenshot%202022-02-08%20at%203.00.44%20PM.png)
+
    
  <hr>
    
